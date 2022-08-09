@@ -1,0 +1,21 @@
+{
+  "name": "waffles",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "export NODE_ENV=test && mocha-r ts-node/register/transpile-only --timeout 50000 --no-warnings test/**/*.test.{js,ts}",
+    "build": "waffle"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.2",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
