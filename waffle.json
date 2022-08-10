@@ -2,5 +2,6 @@
     "compilerType": "solcjs",
     "compilerVersion": "0.8.13",
     "sourceDirectory": "./src",
-    "outputDirectory": "./build"
+    "outputDirectory": "./build",
+    "outputType": "all"
   }

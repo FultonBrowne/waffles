@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "export NODE_ENV=test && mocha -r ts-node/register/transpile-only --timeout 50000 --no-warnings",
-    "build": "waffle"
+    "build": "waffle",
+    "release": "waffle flatten && solcjs --bin --abi -o bytecode/ flatten/BasicToken.sol"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,8 @@
     "ethereum-waffle": "^3.4.4",
     "mocha": "^10.0.0",
     "ts-node": "^10.9.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "solc": "^0.8.16"
   }
+
 }
