@@ -16,3 +16,5 @@ to generate the bytecode use:
 ```
 npm run release
 ```
+
+To deploy it just upload the sol file to remix - it's shitty, but works
